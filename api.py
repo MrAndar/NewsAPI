@@ -1,7 +1,7 @@
 import requests
 import streamlit as st
 
-API_KEY = "11a4b3e160154c16b579b0e977bf8b15"
+API_KEY = "INSERT_YOUR_API_KEY_HERE"
 url = f"https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey={API_KEY}"
 
 request = requests.get(url)
